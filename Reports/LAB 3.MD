@@ -194,7 +194,7 @@ Token(RBRACKET, ])
 
 ## Conclusions 
 
-&ensp;&ensp;&ensp;In conclusion, programming a lexer is a crucial skill for anyone interested in developing programming languages, compilers, or interpreters. Throughout this laboratory work, I learned how to identify and tokenize various types of tokens, such as keywords, identifiers, numbers, and operators. I also gained experience in implementing a lexer and testing it with different inputs to ensure its accuracy and efficiency.
+To summarize, mastering the art of programming a lexer is an indispensable skill for individuals aspiring to delve into the realms of programming languages, compilers, or interpreters. This laboratory project provided me with the opportunity to acquire essential knowledge and techniques in recognizing and tokenizing diverse token types, including keywords, identifiers, numbers, and operators. Additionally, I honed my practical expertise by implementing a lexer and subjecting it to rigorous testing using various inputs to guarantee both its precision and efficiency.
 
 &ensp;&ensp;&ensp;Moreover, I realized that the lexer is a critical component in the overall process of interpreting or compiling code. It serves as the building block for other parts of the interpreter or compiler and must be efficient and dependable.
 
