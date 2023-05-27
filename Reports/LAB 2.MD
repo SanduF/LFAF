@@ -107,7 +107,7 @@
 
 ---
 ## Conclusions
-In conclusion, the study of finite automata, grammar types, NFA, and DFA provides important insights into the theory and practice of computational science. Through laboratory work, we have gained a deeper understanding of the various types of grammars and how they relate to automata. We have also learned about the differences between NFA and DFA, and how they can be used to model different types of languages.
+In summary, the exploration of finite automata, grammar types, NFA, and DFA yields valuable insights into both the theory and practical aspects of computational science. Through hands-on laboratory work, we have obtained a more profound comprehension of diverse grammar types and their connections with automata. Additionally, we have grasped the disparities between NFA and DFA and their applications in modeling different language types.
 
-Furthermore, this laboratory work has demonstrated the importance of computational models in various fields, including computer science, linguistics, and artificial intelligence. The use of finite automata and related concepts has allowed us to describe and analyze language structures in a rigorous and systematic way.
+Moreover, this laboratory experience has highlighted the significance of computational models across various domains, including computer science, linguistics, and artificial intelligence. By employing finite automata and associated concepts, we can rigorously and systematically describe and analyze language structures. This underscores the vital role these tools play in understanding and advancing our knowledge in these fields.
 
