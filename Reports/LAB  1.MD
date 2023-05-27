@@ -53,11 +53,45 @@ g.to_finite_automaton()
 **Finite_automaton** class has one method __CheckWord__ that checks whether an input string is valid based on the FA's attributes. It checks validation through the initial states, final states and alphabet present.
 
 **Main.py** is used to instantiate Grammar class, and finally call the methods needed as shown bellow:
+```
+# Print the generated string
+print("##################################")
+print('Generating random words')
+generated = g.generate('S')
+print(generated)
+generated = g.generate('S')
+print(generated)
+generated = g.generate('S')
+print(generated)
+generated = g.generate('S')
+print(generated)
+generated = g.generate('S')
+print(generated)
 
+```
 
 ---
 ## Results
+```
+Start state is  ['a', 'b', 'c']
+Final states is  ['c']
+Transitions are: [['S', 'a', 'S'], ['S', 'b', 'S'], ['S', 'c', 'A'], ['A', 'a', 'B'], ['B', 'a', 'B'], ['B', 'b', 'B'], ['B', 'c']]
+Checking input word:  cabc
+Valid word
+##################################
+Automaton of type DFA
+##################################
+FA to regullar grammar conversion results:
+{'S': ['aS', 'bS', 'cA'], 'A': ['aB'], 'B': ['aB', 'bB', 'c']}
+##################################
+Generating random words
+cabc
+abbbbacac
+bcac
+bcaac
+caac
 
+```
 
 ---
 ## Conclusions
