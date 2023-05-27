@@ -1,4 +1,4 @@
-# Laboratory work nr 2
+# Laboratory work nr.2
 ### Course: Formal Languages & Finite Automata
 ### Made by Furdui Alexandru  FAF-213
 ## Objectives:
