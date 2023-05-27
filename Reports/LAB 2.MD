@@ -36,7 +36,7 @@
                 Non-terminal symbol → ε (where ε represents the empty string).
                 Non-terminal symbol → terminal symbol or Non-terminal symbol.
 
-    Here is my implementation:
+     Implementation:
     ```
         def check_grammar_type(self):  ##checks whether grammar is of type 3, returns true if yes 
         for lhs, rhs in self.grammar.items():
@@ -64,7 +64,7 @@
         Here we mostly play with existing FA transitions from the **Finite_automaton** class. For each transition we add a new rule to the grammar, this can be done easily by checking the length of the transition list (3 elements or 2) and adding a functionality for both cases in the conversion. Also mostly appending and concatenating was done here.
         Also the output is a dictionary, because my ***Grammar*** class accepts a dictionary as input. Therefore this is the desired output *for my code*.
 
-    Here is my implementation:
+   Implementation:
     ```
         def to_reg_grammar(self): ##based on existing transitions we recreate the gammar back from the FA
         grammar={}
@@ -107,7 +107,7 @@
 
     For my implementation I've decided it's easier and faster to check if automaton is of type NFA, by identifying whether I encounter any multiple transitions with same input symbol of a state (check if current symbol exists in my symbol list (called ```counts```)), once this happens the return of the method automatically becomes False.
 
-    Here is my implementation:
+   Implementation:
    ```
        def fa_type(self):    ##function to check FA type (NDFA or DFA)
         counts=[]
@@ -145,7 +145,7 @@
 
         The resulting DFA represents the same language as the original NDFA.
 
-    Here is my *part* of implementation:
+   Implementation:
    ```
       def nfa_to_dfa(self):
         if Finite_automaton.fa_type(self):
