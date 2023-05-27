@@ -1,5 +1,5 @@
 # Laboratory work nr.3
-  Lexer & Scanner
+# Lexer & Scanner
 
 ### Course: Formal Languages & Finite Automata
 ### Made by Furdui Alexandru
