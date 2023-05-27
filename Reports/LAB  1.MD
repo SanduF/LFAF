@@ -1,4 +1,4 @@
-# Laboratory work no. 1 report.
+# Laboratory work nr.1
 ### Course: Formal Languages & Finite Automata
 ### Student: Furdui Alexandru  FAF-213 
 ## Tasks:
