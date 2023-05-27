@@ -199,8 +199,3 @@ To summarize, mastering the art of programming a lexer is an indispensable skill
 &ensp;&ensp;&ensp;Moreover, I realized that the lexer is a critical component in the overall process of interpreting or compiling code. It serves as the building block for other parts of the interpreter or compiler and must be efficient and dependable.
 
 &ensp;&ensp;&ensp;Overall, this laboratory work has provided me with valuable knowledge and skills that will be useful in building more complex interpreters and compilers in the future.
-
-
-## References
-
-* LLVM. (n.d.). Chapter 1 - Building a language frontend. LLVM Tutorial. Retrieved March 25, 2023, from https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/LangImpl01.html
