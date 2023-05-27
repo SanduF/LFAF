@@ -39,9 +39,17 @@ I created 2 classes: **Grammar** and **Finite_automaton**.
     3.Third method is the tricky one, the one used to convert an object of type Grammar to one of type Finite_automaton. The basic conversions use the formula provided in the course lecture. The states are generated using the lowercase keys of the grammar. Transitions are formed respecting the graammar through appending;
 
 This is the input parameter given to the grammar object during initiation.
+```
+grammar = {
+    'S': ['aS', 'bS', 'cA'],
+    'A': ['aB'],
+    'B': ['aB', 'bB', 'c']
+}
 
+g = Grammar(grammar)
+g.to_finite_automaton()
 
-
+```
 **Finite_automaton** class has one method __CheckWord__ that checks whether an input string is valid based on the FA's attributes. It checks validation through the initial states, final states and alphabet present.
 
 **Main.py** is used to instantiate Grammar class, and finally call the methods needed as shown bellow:
