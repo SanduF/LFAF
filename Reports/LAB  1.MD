@@ -30,7 +30,7 @@ transition from it;
 ---
 
 ## Implementations:
-I've managed to create 2 classes: **Grammar** and **Finite_automaton** in order to complete the lab.
+I created 2 classes: **Grammar** and **Finite_automaton**.
 
     1.Grammar class has 3 methods, first being one that parses the input dictionary into the 4 parameters of a valid regullar grammar (terminals, non-terminals, start symbol and productions/grammar);
 
@@ -38,11 +38,11 @@ I've managed to create 2 classes: **Grammar** and **Finite_automaton** in order 
 
     3.Third method is the tricky one, the one used to convert an object of type Grammar to one of type Finite_automaton. The basic conversions use the formula provided in the course lecture. The states are generated using the lowercase keys of the grammar. Transitions are formed respecting the graammar through appending;
 
-Here is the input parameter given to the grammar object during initiation.
+This is the input parameter given to the grammar object during initiation.
 
 
 
-**Finite_automaton** class has one method __CheckWord__ that checks whether an input string is valid based on the FA's attributes. i mostly check validation through the initial states, final states and alphabet present.
+**Finite_automaton** class has one method __CheckWord__ that checks whether an input string is valid based on the FA's attributes. It checks validation through the initial states, final states and alphabet present.
 
 **Main.py** is used to instantiate Grammar class, and finally call the methods needed as shown bellow:
 
