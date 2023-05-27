@@ -1,4 +1,5 @@
-# Topic: Chomsky Normal Form
+# Laboratory work nr.4
+## Topic: Chomsky Normal Form
 
 ### Course: Formal Languages & Finite Automata
 ### Made by Furdui Alexandru
