@@ -1,6 +1,6 @@
 # Laboratory work no. 2 report.
 ### Course: Formal Languages & Finite Automata
-### Student: Furdui Alexandru  FAF-213
+### Made by Furdui Alexandru  FAF-213
 ## Objectives:
 1. Understand what an automaton is and what it can be used for.
 
