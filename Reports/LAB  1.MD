@@ -1,6 +1,6 @@
 # Laboratory work nr.1
 ### Course: Formal Languages & Finite Automata
-### Student: Furdui Alexandru  FAF-213 
+### Made by Furdui Alexandru  FAF-213 
 ## Tasks:
 1. Understand what a language is and what it needs to have in order to be considered a formal one.
 
