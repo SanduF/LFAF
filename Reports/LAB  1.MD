@@ -53,5 +53,4 @@ Here is the input parameter given to the grammar object during initiation.
 
 ---
 ## Conclusions
-In this laboratory work I learned how to transform my current LFAF knowledge into code, check my unerstanding by using the rules provided to generate strings, convert RE to FA, implement a validation method and output my results to the user.
-
+During this laboratory experiment, I acquired the skills to translate my existing knowledge of Language Formal Automata and Formal Languages into practical coding. I successfully applied the given rules to generate strings, converted Regular Expressions (RE) into Finite Automata (FA), implemented a validation method, and effectively presented the results to the user.
