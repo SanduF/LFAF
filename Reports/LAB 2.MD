@@ -37,9 +37,26 @@
                 Non-terminal symbol → terminal symbol or Non-terminal symbol.
 
     Here is my implementation:
-    
-
+    ```
+        def check_grammar_type(self):  ##checks whether grammar is of type 3, returns true if yes 
+        for lhs, rhs in self.grammar.items():
+            if lhs not in self.non_terminals:
+                return False
+            for symbol in rhs:
+                if len(symbol)>2:
+                    return False
+                if len(symbol)==2:
+                    if symbol[0] not in self.lowc and symbol[1] not in self.non_terminals:
+                        return False
+                if len(symbol)==1:
+                    if symbol[0] not in self.lowc:
+                        return False
+        return True
+    ```
 ## Results
+ ```
+    The grammar is of type 3.
+ ```
 
 3. Objectives
 
@@ -48,10 +65,33 @@
         Also the output is a dictionary, because my ***Grammar*** class accepts a dictionary as input. Therefore this is the desired output *for my code*.
 
     Here is my implementation:
+    ```
+        def to_reg_grammar(self): ##based on existing transitions we recreate the gammar back from the FA
+        grammar={}
+        li=[]
+        ct=self.transitions[0][0]
+        for element in self.transitions:
+            if element[0]!=ct:
+                grammar[ct]=li
+                li=[]
+                ct=element[0]
+            if len(element)==3:
+                cs=element[1]+element[2]
+            else:
+                cs=element[1]
+            li.append(cs)
+        grammar[ct]=li
+        print("##################################")
+        print("FA to regullar grammar conversion results:")
+        print(grammar)
+    ```
   
     ## Results
+    ```
+    FA to regullar grammar conversion results:
+{'S': ['aS', 'bS', 'cA'], 'A': ['aB'], 'B': ['aB', 'bB', 'c']}
+    ```
   
-
     b. Determine whether your FA is deterministic or non-deterministic.
     To determine whether an FA is an NFA or DFA, you need to check the following:
 
@@ -71,6 +111,7 @@
    
 
     ## Results
+   
   
 
     c. Implement some functionality that would convert an NDFA to a DFA.
